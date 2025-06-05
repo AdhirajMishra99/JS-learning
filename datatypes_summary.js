@@ -35,5 +35,3 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
-// The reason is that equality checks == and comparisons <, >, <=, >= work differently. Comparisons convert null to a number, treating it as 0.
-//  That's why (3) null >= 0 is true and (1) null > 0 is false.
